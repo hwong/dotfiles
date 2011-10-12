@@ -1,0 +1,7 @@
+[user]
+	name = Hubert Wong
+	email = hubert@hubert.io
+[core]
+	excludesfile = /Users/hubert/.gitignore
+[color]
+	ui = true
