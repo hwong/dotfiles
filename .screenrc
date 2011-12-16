@@ -1,0 +1,4 @@
+startup_message off
+term screen-256color
+autodetach on
+caption always "%{= Kk}%?%-Lw%?%{= Kw}%n*%f %t%?(%u)%?%{= Kk}%?%+Lw%?"
