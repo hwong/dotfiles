@@ -2,3 +2,4 @@ startup_message off
 term xterm-256color
 autodetach on
 caption always "%{= Kk}%?%-Lw%?%{= Kw}%n*%f %t%?(%u)%?%{= Kk}%?%+Lw%?"
+defscrollback 9999
