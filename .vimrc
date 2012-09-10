@@ -7,10 +7,10 @@ set backspace=indent,eol,start
 " Enable syntax highlighting
 syntax on
 
-" 4 space soft tabs
+" 2 space soft tabs
 set expandtab
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 
 " Display row/column numbers
 set ruler
