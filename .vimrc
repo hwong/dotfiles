@@ -18,3 +18,4 @@ set ruler
 " Highlight search results
 set hlsearch
 
+set timeout timeoutlen=3000 ttimeoutlen=100
