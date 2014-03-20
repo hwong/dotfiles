@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -ex
 
 cd ~
 rm -r ~/.gitconfig ~/.gitignore ~/.screenrc ~/.vim ~/.vimrc
