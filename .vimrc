@@ -19,3 +19,6 @@ set ruler
 set hlsearch
 
 set timeout timeoutlen=3000 ttimeoutlen=100
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
