@@ -4,7 +4,7 @@
 
     git clone https://github.com/hwong/dotfiles.git ~/dotfiles;~/dotfiles/bootstrap.sh
 
-## Update
+## One line update
 
-    cd ~/dotfiles;git reset --hard;git pull origin master;~/dotfiles/bootstrap.sh
+    cd ~/dotfiles;git reset --hard;git pull origin master;~/dotfiles/bootstrap.sh;cd -
 
