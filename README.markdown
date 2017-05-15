@@ -12,11 +12,11 @@ These are my most of my dotfiles. You probably don't want to use them unless you
 
 # OSX stuff
 
-    # Disable press-and-hold for keys in favor of key repeat
-    defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-    
-    # Set a blazingly fast keyboard repeat rate
-    defaults write NSGlobalDomain KeyRepeat -int 0
-
     # Show hidden files in Finder
     defaults write com.apple.finder AppleShowAllFiles YES
+
+    # Fast key repeat
+    defaults write NSGlobalDomain KeyRepeat -int 1
+    defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+Reboot after setting these.
