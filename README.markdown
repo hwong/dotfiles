@@ -17,3 +17,6 @@ These are my most of my dotfiles. You probably don't want to use them unless you
     
     # Set a blazingly fast keyboard repeat rate
     defaults write NSGlobalDomain KeyRepeat -int 0
+
+    # Show hidden files in Finder
+    defaults write com.apple.finder AppleShowAllFiles YES
