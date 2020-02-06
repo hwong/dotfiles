@@ -1,22 +1,21 @@
 # dotfiles
 
-These are my most of my dotfiles. You probably don't want to use them unless you are me or you want to be like me (not sure why you'd want to do that though).
+## zsh
+Set `zsh` as the default shell
+```shell script
+chsh -s /bin/zsh
+```
 
-## One line install
+## OSX customizations
+Show hidden files in Finder:
+```shell script
+defaults write com.apple.finder AppleShowAllFiles YES
+```
 
-    git clone https://github.com/hwong/dotfiles.git ~/dotfiles;~/dotfiles/bootstrap.sh
-
-## One line update
-
-    cd ~/dotfiles;git reset --hard;git pull origin master;~/dotfiles/bootstrap.sh;cd -
-
-# OSX stuff
-
-    # Show hidden files in Finder
-    defaults write com.apple.finder AppleShowAllFiles YES
-
-    # Fast key repeat
-    defaults write NSGlobalDomain KeyRepeat -int 1
-    defaults write NSGlobalDomain InitialKeyRepeat -int 10
+Fast key repeat:
+```shell script
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+```
 
 Reboot after setting these.
